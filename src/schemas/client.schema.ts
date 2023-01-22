@@ -5,5 +5,4 @@ export const clientSchema = joi.object({
   date: joi.date().required || joi.string().required(),
   description: joi.string().required(),
   payment: joi.string().required(),
-  paid: joi.boolean().required(),
 });
